@@ -1,0 +1,14 @@
+dataset_columns:
+  target_column: case_status
+  numerical_columns:
+    - no_of_employees
+    - prevailing_wage
+    - company_age
+  categorical_columns:
+    - continent
+    - education_of_employee
+    - has_job_experience
+    - requires_job_training
+    - region_of_employment
+    - unit_of_wage
+    - full_time_position
